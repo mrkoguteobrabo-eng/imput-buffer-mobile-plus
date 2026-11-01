@@ -1,0 +1,27 @@
+name: Build Input Buffer Mobile+
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build Geode Mod
+        id: build
+        uses: geode-sdk/build-geode-mod@main
+        with:
+          target: Android64
+
+      - name: Upload GEODE
+        uses: actions/upload-artifact@v4
+        with:
+          name: InputBufferMobilePlus
+          path: ${{ steps.build.outputs.build-output }}/*.geode
