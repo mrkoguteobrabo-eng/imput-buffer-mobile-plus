@@ -1,0 +1,11 @@
+{
+    "geode": "v5.11.2",
+    "gd": {
+        "android": "2.2081"
+    },
+    "id": "kogut.input-buffer-mobile-plus",
+    "name": "Input Buffer Mobile+",
+    "version": "v1.0.0",
+    "developer": "MrKogut",
+    "description": "Input timing-assist prototype for Geometry Dash Android."
+}
