@@ -5,7 +5,7 @@
     },
     "id": "kogut.input-buffer-mobile-plus",
     "name": "Input Buffer Mobile+",
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "developer": "MrKogut",
-    "description": "Input timing-assist prototype for Geometry Dash Android."
+    "description": "Offline practice replay and frame-timing editor for Geometry Dash Android."
 }
